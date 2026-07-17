@@ -219,7 +219,9 @@ public class listagemVIEW extends javax.swing.JFrame {
                 });
             }
         } catch (Exception e) {
-        }
+    javax.swing.JOptionPane.showMessageDialog(this,
+            "Erro ao listar produtos: " + e.getMessage());
+}
     
     }
 }
